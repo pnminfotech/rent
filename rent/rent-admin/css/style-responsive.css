@@ -1,0 +1,811 @@
+@media (min-width: 980px) {
+    /*-----*/
+    .custom-bar-chart {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .mail-box .sm-side {
+        width: 30%;
+    }
+
+    .mail-box .lg-side {
+        width: 70%;
+    }
+    /*-----*/
+    .custom-bar-chart {
+        margin-bottom: 40px;
+    }
+
+    /*chat room*/
+
+    .chat-room aside {
+        display: block;
+    }
+    .chat-room .left-side, .chat-room .mid-side, .chat-room .right-side, .chat-room .left-side footer {
+        width: 100%;
+    }
+
+    .chat-room .left-side footer {
+        position: relative;
+    }
+
+    ul.chat-user {
+        margin-bottom: 20px;
+    }
+
+    .chat-room .left-side , .chat-room .mid-side{
+        margin-bottom: 10px;
+
+    }
+
+    .chat-room .left-side .user-head , .chat-room-head, .chat-room .right-side .user-head{
+        border-radius: 4px 4px 0 0;
+        -webit-border-radius: 4px 4px 0 0;
+    }
+    .chat-room .left-side footer {
+        border-radius: 0 0 4px 4px;
+        -webkit-border-radius: 0 0 4px 4px;
+    }
+    /**/
+    .chat-room .right-side .user-head {
+        float: left;
+        width: 100%;
+    }
+
+    .chat-room .mid-side footer {
+        position: relative;
+        float: left;
+        width: 100%;
+        border-right: 0;
+    }
+
+    .chat-txt {
+        width: 65%;
+    }
+
+    .chat-room .right-side footer {
+        width: 100%;
+        position: relative;
+    }
+
+    .chat-room .mid-side {
+        margin-bottom: 0!important;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+.details-mobi
+{
+	width:auto;
+}
+
+.back-btn {
+
+    margin-top: 7px;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 7px !important;
+}
+ul.sidebar-menu {
+    
+}
+    .header {
+        position: absolute;
+    }
+
+    /*sidebar*/
+
+    #sidebar {
+        height: auto;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        z-index: 1001;
+    }
+
+
+    /* body container */
+    #main-content {
+        margin: 0px!important;
+        position: none !important;
+    }
+
+    #sidebar > ul > li > a > span {
+        line-height: 35px;
+    }
+
+    #sidebar > ul > li {
+        margin: 0 10px 5px 10px;
+    }
+    #sidebar > ul > li > a {
+        height:35px;
+        line-height:35px;
+        padding: 0 10px;
+        text-align: left;
+    }
+    #sidebar > ul > li > a i{
+        /*display: none !important;*/
+    }
+
+    .mail-info, .mail-info:hover {
+        display: none !important;
+    }
+    #sidebar ul > li > a .arrow, #sidebar > ul > li > a .arrow.open {
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    #sidebar ul > li.active > a .arrow, #sidebar ul > li > a:hover .arrow, #sidebar ul > li > a:focus .arrow,
+    #sidebar > ul > li.active > a .arrow.open, #sidebar > ul > li > a:hover .arrow.open, #sidebar > ul > li > a:focus .arrow.open{
+        margin-top: 15px;
+    }
+
+    #sidebar > ul > li > a, #sidebar > ul > li > ul.sub > li {
+        width: 100%;
+    }
+    #sidebar > ul > li > ul.sub > li > a {
+        background: transparent !important ;
+    }
+    #sidebar > ul > li > ul.sub > li > a:hover {
+        
+    }
+
+
+    /* sidebar */
+    #sidebar {
+        margin: 0px !important;
+    }
+
+    /* sidebar collabler */
+    #sidebar .btn-navbar.collapsed .arrow {
+        display: none;
+    }
+
+    #sidebar .btn-navbar .arrow {
+        position: absolute;
+        right: 35px;
+        width: 0;
+        height: 0;
+        top:48px;
+        border-bottom: 15px solid #282e36;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+    }
+
+
+    /*---------*/
+
+    .modal-footer .btn {
+        margin-bottom: 0px !important;
+    }
+
+    .btn {
+        margin-bottom: 5px;
+    }
+
+
+
+
+    .mail-box aside {
+        display: block;
+    }
+
+    .mail-box .sm-side , .mail-box .lg-side{
+        width: 100% ;
+    }
+
+    /* full calendar fix */
+    .fc-header-right {
+        left:25px;
+        position: absolute;
+    }
+
+    .fc-header-left .fc-button {
+        margin: 0px !important;
+        top: -10px !important;
+    }
+
+    .fc-header-right .fc-button {
+        margin: 0px !important;
+        top: -50px !important;
+    }
+
+    .fc-state-active, .fc-state-active .fc-button-inner, .fc-state-hover, .fc-state-hover .fc-button-inner {
+        background: none !important;
+        color: #FFFFFF !important;
+    }
+
+    .fc-state-default, .fc-state-default .fc-button-inner {
+        background: none !important;
+    }
+
+    .fc-button {
+        border: none !important;
+        margin-right: 2px;
+    }
+
+    .fc-view {
+        top: 0px !important;
+    }
+
+    .fc-button .fc-button-inner {
+        margin: 0px !important;
+        padding: 2px !important;
+        border: none !important;
+        margin-right: 2px !important;
+        background-color: #fafafa !important;
+        background-image: -moz-linear-gradient(top, #fafafa, #efefef) !important;
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#efefef)) !important;
+        background-image: -webkit-linear-gradient(top, #fafafa, #efefef) !important;
+        background-image: -o-linear-gradient(top, #fafafa, #efefef) !important;
+        background-image: linear-gradient(to bottom, #fafafa, #efefef) !important;
+        filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fafafa', endColorstr='#efefef', GradientType=0) !important;
+        -webkit-box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
+        -moz-box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
+        box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
+        -webkit-border-radius: 3px !important;
+        -moz-border-radius: 3px !important;
+        border-radius: 3px !important;
+        color: #646464 !important;
+        border: 1px solid #ddd !important;
+        text-shadow: 0 1px 0px rgba(255, 255, 255, .6) !important;
+        text-align: center;
+    }
+
+    .fc-button.fc-state-disabled .fc-button-inner {
+        color: #bcbbbb !important;
+    }
+
+    .fc-button.fc-state-active .fc-button-inner {
+        background-color: #e5e4e4 !important;
+        background-image: -moz-linear-gradient(top, #e5e4e4, #dddcdc) !important;
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e4e4), to(#dddcdc)) !important;
+        background-image: -webkit-linear-gradient(top, #e5e4e4, #dddcdc) !important;
+        background-image: -o-linear-gradient(top, #e5e4e4, #dddcdc) !important;
+        background-image: linear-gradient(to bottom, #e5e4e4, #dddcdc) !important;
+        filter: progid:dximagetransform.microsoft.gradient(startColorstr='#e5e4e4', endColorstr='#dddcdc', GradientType=0) !important;
+    }
+
+    .fc-content {
+        margin-top: 50px;
+    }
+
+    .fc-header-title h2 {
+        line-height: 40px !important;
+        font-size: 12px !important;
+    }
+
+    .fc-header {
+        margin-bottom:0px !important;
+    }
+
+    /*--*/
+
+    /*.chart-position {*/
+        /*margin-top: 0px;*/
+    /*}*/
+
+    .timeline-desk .album a {
+        margin-bottom: 5px;
+        margin-right: 4px;
+    }
+
+    .stepy-titles li {
+        margin: 10px 3px;
+    }
+
+    .mail-option .btn {
+        margin-bottom: 0;
+    }
+
+    /*-----*/
+    .custom-bar-chart {
+        margin-bottom: 40px;
+    }
+
+    /*menu icon plus minus*/
+    .dcjq-icon {
+        top: 10px;
+    }
+    ul.sidebar-menu li ul.sub li a {
+        padding: 0;
+    }
+
+    /*---*/
+
+    .img-responsive {
+        width: 100%;
+    }
+.mt {
+    margin-top: 58px !important;
+}
+}
+
+
+
+@media (max-width: 480px) {
+.notify-row {
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.dropdown-menu.inbox li a .subject .from {
+    white-space: pre-wrap;
+}
+.dropdown-menu.inbox li a .message {
+
+    white-space: pre-wrap;
+ 
+}
+.dropdown-menu.extended {
+      margin-left: -100px;
+        max-width: 200px !important;
+    min-width: 160px !important;
+}
+.notify-arrow {
+
+    left: 100px;
+}
+    .notify-row, .search, .dont-show , .inbox-head .sr-input, .inbox-head .sr-btn{
+        display: block !important;
+    }
+    .mr-mo{
+    margin-right:15px;
+    }
+.h3, h3 {
+    font-size: 18px !important;
+}
+.float-btn
+{
+	float:none;
+}
+    .mail-box aside {
+        display: block;
+    }
+
+    .mail-box .sm-side , .mail-box .lg-side{
+        width: 100% ;
+    }
+
+    #top_menu .nav > li, ul.top-menu > li {
+        float: right;
+    }
+    .hidden-phone {
+        display: none !important;
+    }
+
+    .dataTables_filter {
+        float: left;
+    }
+
+    .dataTables_info {
+        margin-bottom: 10px;
+    }
+
+    .mail-option .btn {
+        margin-bottom: 0;
+    }
+
+    .mail-option .inbox-pagination {
+        margin-top: 10px;
+        float: left;
+    }
+
+    .chart-position {
+       margin-top: 0px;
+     }
+
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+        background-color: #ccc;
+        border-color:#ccc ;
+    }
+
+    /*chat room*/
+
+    .chat-room aside {
+        display: block;
+    }
+    .chat-room .left-side, .chat-room .mid-side, .chat-room .right-side, .chat-room .left-side footer {
+        width: 100%;
+    }
+
+    .chat-room .left-side footer {
+        position: relative;
+    }
+
+    ul.chat-user {
+        margin-bottom: 20px;
+    }
+
+    .chat-room .left-side , .chat-room .mid-side{
+        margin-bottom: 10px;
+
+    }
+
+    .chat-room .left-side .user-head , .chat-room-head, .chat-room .right-side .user-head{
+        border-radius: 4px 4px 0 0;
+        -webit-border-radius: 4px 4px 0 0;
+    }
+    .chat-room .left-side footer {
+        border-radius: 0 0 4px 4px;
+        -webkit-border-radius: 0 0 4px 4px;
+    }
+
+    /**/
+    .chat-room .right-side .user-head {
+        width: 100%;
+        float: left;
+    }
+
+    .chat-room .mid-side footer {
+        position: relative;
+        float: left;
+        width: 100%;
+        border-right: 0;
+    }
+
+    .chat-txt {
+        width: 65%;
+    }
+
+    .chat-room .right-side footer {
+        width: 100%;
+        position: relative;
+    }
+
+    .chat-room .mid-side {
+        margin-bottom: 0!important;
+    }
+}
+
+@media (max-width:320px) {
+
+    .login-social-link a {
+        padding: 15px 17px !important;
+    }
+
+    .notify-row, .search, .dont-show, .inbox-head .sr-input, .inbox-head .sr-btn {
+        display: none;
+    }
+
+    .mail-box aside {
+        display: block ;
+    }
+
+    .mail-box .sm-side , .mail-box .lg-side{
+        width: 100% ;
+    }
+
+    #top_menu .nav > li, ul.top-menu > li {
+        float: right;
+    }
+
+    .hidden-phone {
+        display: none !important;
+    }
+
+    .dataTables_filter {
+        float: left;
+    }
+
+    .dataTables_info {
+        margin-bottom: 10px;
+    }
+
+    .mail-option .btn {
+        margin-bottom: 0;
+    }
+
+    .mail-option .inbox-pagination {
+        margin-top: 10px;
+        float: left;
+    }
+
+    .chart-position {
+        margin-top: 0px;
+    }
+
+    .lock-wrapper {
+        margin: 10% auto;
+        max-width: 310px;
+    }
+    .lock-input {
+        width: 82%;
+    }
+
+    .cmt-form {
+        display: inline-block;
+        width: 75%;
+    }
+
+    .chat-room .mid-side footer .btn-group {
+        display: none;
+    }
+
+
+}
+@media only screen and (max-width: 1440px){
+
+.footer-img
+{
+	width:6%;
+}
+}
+@media only screen and (max-width: 1024px){
+	.ln_solid {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+}
+.mobile_meterno{
+    width: 87%;
+    position: absolute;
+    /* float: left; */
+    height: auto;
+    white-space: pre-wrap;
+    text-align: right;
+}
+.content-panel {
+    background: #000000;
+}
+th{
+	text-align:left !important
+}
+td{
+	text-align:left;
+}
+.content-panel h4 {
+    margin-left: 10px !important;
+}
+table.dataTable {
+    padding-top: 7px;
+}
+.even {
+    box-shadow: 0px 6px 8px rgb(0 0 0 / 75%), inset 1px 1px 8px 2px rgb(0 0 0 / 75%);
+}
+.odd{
+	padding-top:10px;	
+    padding-bottom: 10px;
+}
+.adv-table tr{
+		padding-top:10px;	
+    padding-bottom: 10px;
+}
+ .even{
+	padding-top:10px;
+    padding-bottom: 10px;
+}
+}
+@media only screen and (max-width: 768px){
+.main-title {
+    font-size: 19px;
+}
+.breadcrumb {
+
+    padding: 5px 5px !important;
+
+}
+div.dataTables_wrapper div.dataTables_length select {
+
+    margin-left: 15px !important;
+}
+.footer-img
+{
+	width:12% !important;
+}
+.site-footer {
+    background-color: #1b1a1a;
+    color: #fefefe;
+  
+            border-radius: 15px 15px 0px 0px;
+}
+.even{
+	  box-shadow: 0px 6px 8px rgb(0 0 0 / 75%), inset 1px 1px 8px 2px rgb(0 0 0 / 75%);
+}
+	.site-footer p {
+
+  font-size:8px;
+}
+	.btn {
+    padding: 5px 9px !important;
+	}
+	.d-none{
+	display:none;
+	}
+}
+@media only screen and (max-width: 425px){
+	.btn {
+  padding: 2px 8px !important;
+	}
+	.site-footer p {
+
+  font-size:8px;
+}
+.mobile_meterno {
+    width: 100%;
+    position: absolute;
+    /* float: left; */
+    height: auto;
+    white-space: pre-wrap;
+    text-align: left;
+    padding-left: 124px;
+
+}
+#example_wrapper div.dt-buttons {
+    margin-left: 20px;
+}
+table.table {
+
+    padding-top: 14px;
+}
+#employeeList_filter:before {
+margin-left: 10px;
+}
+.pl-0{
+	padding-left:0px !important;
+}
+.pr-0{
+	padding-right:0px !important;
+}
+div.dataTables_filter label {
+
+    display: flex;
+}
+.content-panel {
+   
+    /* box-shadow: 1px 4px 8px 4px #aab2bd; */
+    padding-top: 15px;
+}
+button.dt-button, div.dt-button, a.dt-button, input.dt-button {
+    color: white !important;
+    padding: 3px 4px !important;
+    box-shadow: 0px 1px 4px 2px black !important;
+    border-radius: 5px !important;
+    font-size: 11px !important;
+}
+div.dt-buttons {
+    float: none !important;
+    text-align: initial !important;
+position: absolute !important;
+
+}
+#example_wrapper .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter {
+    float: right !important;
+
+    text-align: end !important;
+}
+div.dataTables_wrapper div.dataTables_length select {
+    width: 49px !important;
+    display: inline-block;
+}
+.dataTables_wrapper .dataTables_filter {
+    margin-top: 0 !important;
+}
+#example_wrapper div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: 150px !important;
+
+}
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: 125px !important;
+    padding: 1px;
+    margin-right: 10px !important;
+}
+.footer-img
+{
+	    width: 27% !important;
+ 
+}
+.po-ab {
+
+	position:absolute;
+}
+.float-right{
+float:right !important;
+}
+.wrapper {
+	    padding-top: 0px;
+}
+.main-title {
+    font-size: 18px;
+}
+.border-none{
+	border: none !important;
+}
+ul.sidebar-menu {
+      display:none;
+}	
+.breadcrumb {
+	float: none;
+}
+.mt {
+    margin-top: 0px !important;
+}
+.float-r {
+    float: none;
+}
+.building-icon {
+    font-size: 51px !important;
+}
+div.dataTables_wrapper div.dataTables_length select {
+    width: 43px !important;
+    padding: 1px !important;
+}
+}
+
+@media only screen and (max-width: 375px){
+
+div.dataTables_filter label {
+    float: inherit;
+    text-align: left;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+   
+    display: inline-block;
+    width: 88px !important;
+
+}
+.mobile_meterno {
+    width: 101%;
+    position: absolute;
+    /* float: left; */
+    height: auto;
+    white-space: pre-wrap;
+    text-align: left;
+    padding-left: 110px;
+}
+}
+@media only screen and (max-width: 320px){
+.wrapper {
+    padding-top: 0px !important;
+}
+.mobile_meterno {
+    width: 100%;
+    /* max-width: 87%; */
+    position: absolute;
+    float: inherit;
+    height: auto;
+    white-space: pre-wrap;
+     text-align: left;
+    padding-left: 84px;
+}
+.font11{
+	font-size:11px;
+}
+	div.dt-buttons {
+
+}
+ul.sidebar-menu {
+    padding-top: 0px !important;
+}
+.back-btn1 {
+    margin-bottom: 0px !important;
+    margin-top: -8px;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+        margin-left: 5px;
+    display: block !important;
+    width: 61px !important;
+}
+#employeeList_filter:before {
+margin-left: 10px;
+    font-size: 16px !important;
+}
+button.dt-button, div.dt-button, a.dt-button, input.dt-button {
+    color: white !important;
+    padding: 3px 4px !important;
+    box-shadow: 0px 1px 4px 2px black !important;
+    border-radius: 5px !important;
+    font-size: 10px !important;
+}
+
+}
+
